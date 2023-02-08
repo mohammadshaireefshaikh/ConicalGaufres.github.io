@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height ,width=device-width, initial-scale=1.0">
+    <title>Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+
+    <style>
+        model-viewer {
+            max-width: 100%;
+            max-height: 100%;
+            height: 1920px;
+            width: 1920px ;
+            margin: 0 auto;
+        }
+        html,
+        body {
+            height: 100%;
+        }
+
+        #content,
+        .container-fluid,
+        .span9 {
+            border: 1px solid #000;
+            overflow-y: auto;
+            height: 95%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <model-viewer id="model" alt="" src="" ios-src="" ar auto-rotate background-color="#2EAFAC" camera-controls camera-orbit="10deg 45deg 3m"
+            touch-action="pan-y" disable-pan></model-viewer>
+    </div>
+    <script src="js/script2.js"></script>
+</body>
+
+</html>
