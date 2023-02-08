@@ -1,4 +1,4 @@
 import qrcode
-img = qrcode.make('https://g.page/r/Cb4XcMbnh16cEBM/review')
-img.save('Guuglekids_Feedback') 
-img.save('Guuglekids_Feedback.png')
+img = qrcode.make('https://mohammadshaireefshaikh.github.io/ConicalGaufres.github.io/')
+img.save('ConicalGaufres_QR') 
+img.save('ConicalGaufres_QR.png')
